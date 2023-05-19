@@ -1,19 +1,69 @@
 /*style initial*/
+html {
+	line-height: 1.5;
+	font-weight: normal;
+	letter-spacing: 0.04em;
+	scroll-behavior: smooth;
+	max-width: 100%;
+	border: 6px solid;
+	border-image-source: linear-gradient(90deg,#f7c9c9,#fa709a 70%);
+	border-image-slice: 1;
+	
+}
+body {
+	box-sizing: border-box;
+	position: relative;
+	background-color: #faeee7;
+	color: black;
+	font-family: Merriweather,serif;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	max-width: 1140px;
+	height: auto;
+	min-height: 100vh;
+	overflow-x: hidden;
+	display: flex;
+	
+	
+   }
+   
+   
+   h1 {
+	   font-family: 'Bruno Ace SC', cursive;
+   }
+
+   h2{
+	font-weight: 200;
+	font-size: 2.92rem;
+	line-height: 3.212rem;
+	margin: 1.46rem 0 1.168rem 0;
+   }
+
 header {
-	background-color: #333;
-	color: #fff;
+	background-color: #f5c5c4;
 	padding: 20px;
+	font-size: 4.2rem;
+	line-height: 4.62rem;
+	margin: 2.1rem 0 1.68rem 0;
+	
 }
 
 header h1 {
+	margin-left: 2rem;
+	margin-right: 2rem;
 	font-size: 36px;
 	margin: 0;
 }
 
 nav ul {
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+nav a:hover {
+	background-color: #e2216a;
+	color: #ffffff;
 }
 
 nav li {
@@ -23,4 +73,86 @@ nav li {
 
 nav li:last-child {
 	margin-right: 0;
+}
+
+/* les class */
+.imageProfil{
+	max-width: 100%;
+	height: auto;
+	border-radius: 9999px;
+	box-sizing: border-box;
+	display: inline;
+	float: right;
+	line-height: 24px;
+	position: static;
+	z-index: auto;
+	pointer-events: none;
+}
+.headingPrimary { 
+	font-size: 6rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	color:#594a4e;
+	font-weight: 800;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	
+}
+.AboutSection{
+	box-sizing: border-box;
+	display: block;
+	float: none;
+	line-height: 37.1px;
+	position: static;
+	z-index: auto;
+	margin: .67em 0;
+	padding: 1.6, 9.6,1.6,1.6;
+	border: 0 solid #e2e8f0;
+	font-size: 115%;
+	font-weight: 600;
+	color: #111;
+	font-family: Playfair Display,sans-serif;
+}
+.Bio,
+.experiences,
+.competences,
+.projet {
+	font-size: 115%;
+	font-weight: 600;
+	color: #111;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	
+}
+
+
+/*footer*/
+.textfooter {
+	font-weight: 700;
+	box-sizing: border-box;
+	box-shadow: 1px 10px 10px 0 rgba(0,0,0,.1);
+	display: block;
+	position: relative;
+	float: none;
+	line-height: 36px;
+	position: static;
+	z-index: auto;
+	scale: 25px;
+	width: 100%;
+	border-radius: .375rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	border: 1px solid #e2e8f0;
+
+}
+
+.mailStyle {
+	background-color: #e2216a;
+	color: #ffffff;
+	border-radius: .25rem ;
 }
