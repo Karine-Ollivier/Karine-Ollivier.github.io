@@ -6,23 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon-16x16.png">
     <link rel="stylesheet" href="../css/reboot.css">
-    <link rel="stylesheet" href ="./css/styles.css">
+   
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Exo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     
-    <title>E.k.o </title>
+    <title>CV développeuse web -  Karine Erlhaine Ollivier </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href ="./css/styles.css">
 </head>
-<body>
-    <header>
-        <h1 class="headingPrimary"> Hey! i'm Eko 👋 </h1>
-        <nav>
-			<ul>
-				<li><a href="#">Accueil</a></li>
-				<li><a href="#">À propos</a></li>
-				<li><a href="#">Projets</a></li>
-				<li><a href="#">Contact</a></li>
+<body class="clearfix">
+    <div id="top-content"></div>
+    <header id="section-header" class="section-header mb-30 clearfix">
+    <nav id="navbar-main" class="navbar navbar-expand-xl navbar-dark bg-dark navbar-main">
+    <a class="navbar-brand" href="#section-header">
+        <h1 class="headingPrimary"> 
+        <small class="text-muted"> Hey! i'm Eko 👋 </small>
+        </h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div id="navbar" class="collapse navbar-collapse justify-content-end">
+			<ul class="navbar-nav">
+				<li class="nav-item active"><a href="#">Accueil</a></li>
+				<li class="nav-item"><a href="#">Compétences</a></li>
+				<li class="nav-item"><a href="#">Expériences</a></li>
+				<li class="nav-item"><a href="#">portfolio</a></li>
+                <li class="nav-item"><a href="#">Loisirs</a></li>
+                <li class="nav-item"><a href="#">contact</a></li>
+
 			</ul>
+    </div>
 		</nav>
     </header>
 
@@ -30,63 +45,116 @@
 		<div class="Bio">
             <img class="imageProfil" src="./images/peacefully reading.png" alt="sticker Eko" width="600px" height="400px">
             <article class="AboutSection">
-                <h2> About me </h2>
-				<p>
-                    Actuellement en formation à l'école O'clock  pour préparer mon projet de reconversion professionnel et devenir développeuse Web. 
-					 <br>
-				
+                <h2 class="hi"> Bonjour </h2>
+                <p class="name">
+                Je suis Karine  </p>
+                <small class="position mb-30">&amp; je travaille dans le monde du web</small>
+				<a href="#" download>Télécharger mon CV</a>
+                <div class="col-12 col-lg-6 col-md-6 col-sm-6 hexagon-right">
+                    <div class="hexagon">
+                        <div class="hexTop"></div>
+                        <div class="hexBottom"></div>
+                         <a href="#contact" class="custom-btn-lg">
+                         <i class="fa fa-comment-dots" aria-hidden="true"></i>
+                        </a>
 
-                    Logoden biniou degemer mat an penn ar bed Chrouer, war keloù c’hoari c’houmoul ur enor e drezoc'h mervel, pegeit traonienn speredek fuzuilh skignañ neud du. Plelann-Vihan war Skrigneg poent ar vezañ bleunioù preñv Konk, wechoù e leue arc’hant mignon kazh kerkoulz ganto kotoñs, da gloan dorgenn hi keniterv voger degemer. Anv tremen muiañ gouel kraou arrebeuri c’hilhog krouiñ pakañ, Arzhon-Rewiz nag kuzuliañ gaer adarre frout reiñ Atlantel ifern, gwez lies Kastell-Paol c’henwerzh daoudroad hor kregiñ. Klask ouzh embann lizher Plougasnou livet vugale Gwengamp Konk skañv fuzuilh pont Kastell-Paol kelc’h, Perros-Gireg Mur bro rak mouchouer ganimp, ganeomp Plouezoc’h evidoc'h bruzun ebet dindan . Respont an skouarn Kerbabu drezañ houarn brav plad derc’hel, boutailh tomm kalon tu warnañ, ar tan noz ahont, penaos gavr marc’had ni taer kurun buan. 
-
-				</p>
-				<h3> Mes outils </h3>
-                <p>
-                    <ul>
-                        <ol>Editor/Terminal ⌨️</ol>
-                        <ol>Desktop Apps 🖥️</ol>
-                        <ol>Recording 🎤📸</ol>
-                        <ol>Desk Setup 👩‍💻💻</ol>
-                        <ol>This Website 💻</ol>
-                    </ul>
+        <div class="contact">
+                <h2>Informations de contact</h2>
+                <div class="contact-flex">
+                <p>Nom : </p>
+                <p>Karine E. Ollivier</p>
+            </div>
+            <div class="contact-flex">
+                <p>Adresse : </p>
+                <p>La Montagne <br> 
+                22340 Maël-Carhaix
                 </p>
-               
+            </div>
+            <div class="contact-flex">
+                <p>Téléphone :</p>
+                <p>07 80 25 93 36</p>
+            </div>
+            <div class="contact-flex">
+                <p>Mail : </p>
+                <p><a href="mailto:karine.ollivier@oclock.school">karine.ollivier@oclock.school</a></p>
+            </div>
+            <div class="contact-flex">
+                <p>Permis :</p>
+                <p>B</p>
+            </div>
+            <div class="social">
+                <a href="#"><img src="https://www.facebook.com/rumpelskunkskin/wp-content/uploads/2019/07/fb.png" alt="Logo Fb"></a>
+                <a href="#"><img src="https://www.linkedin.com/mynetwork/wp-content/uploads/2019/07/lk.png" alt="Logo Lk"></a>
             
            </article>
         </div>
-		<div class="experiences grid grid-cols-2 sm:grid-cols-1">
-            <h2>Mes Expériences</h2>
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, et exercitationem cumque voluptatem nisi suscipit sunt nam commodi esse obcaecati doloremque fugit necessitatibus corrupti reiciendis minus deserunt nobis illum molestias!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, et exercitationem cumque voluptatem nisi suscipit sunt nam commodi esse obcaecati doloremque fugit necessitatibus corrupti reiciendis minus deserunt nobis illum molestias!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, et exercitationem cumque voluptatem nisi suscipit sunt nam commodi esse obcaecati doloremque fugit necessitatibus corrupti reiciendis minus deserunt nobis illum molestias!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, et exercitationem cumque voluptatem nisi suscipit sunt nam commodi esse obcaecati doloremque fugit necessitatibus corrupti reiciendis minus deserunt nobis illum molestias!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, et exercitationem cumque voluptatem nisi suscipit sunt nam commodi esse obcaecati doloremque fugit necessitatibus corrupti reiciendis minus deserunt nobis illum molestias!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, et exercitationem cumque voluptatem nisi suscipit sunt nam commodi esse obcaecati doloremque fugit necessitatibus corrupti reiciendis minus deserunt nobis illum molestias!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, et exercitationem cumque voluptatem nisi suscipit sunt nam commodi esse obcaecati doloremque fugit necessitatibus corrupti reiciendis minus deserunt nobis illum molestias!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, et exercitationem cumque voluptatem nisi suscipit sunt nam commodi esse obcaecati doloremque fugit necessitatibus corrupti reiciendis minus deserunt nobis illum molestias!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, et exercitationem cumque voluptatem nisi suscipit sunt nam commodi esse obcaecati doloremque fugit necessitatibus corrupti reiciendis minus deserunt nobis illum molestias!</li>
-            </ul>
+	<section>
+        
+        <!--<h2>Expériences professionnelles</h2>
+        <div class="exp"> ici une image d'un logo cliquable de chaque expérience-->
+          <div class="competences">
+                    <h2>Hard Skills</h2>
+                    <h3 class="h3gauche">Professionnelles</h3>
+                    <div class="comp">
+                <p>HTML / CSS</p>
+                <div class="conteneur-barre"><span class="barre c100"></span></div>
+            </div>
+            <div class="comp">
+                <p>Integration web</p>
+                <div class="conteneur-barre"><span class="barre c95"></span></div>
+            </div>
+            <div class="comp">
+                <p>Developpement FrontEnd</p>
+                <div class="conteneur-barre"><span class="barre c90"></span></div>
+            </div>
+            <div class="comp">
+                <p>Developpement BackEnd</p>
+                <div class="conteneur-barre"><span class="barre c100"></span></div>
+            <div class="comp">
+                <p>Gestion de projet numérique</p>
+                <div class="conteneur-barre"><span class="barre c105"></span></div>
+            </div>
+        <h3 class="h3gauche">Soft Skills</h3>
+        <div class="comp2">
+            <p>Créativité</p>
+            <p>90%</p>
+            <div class="conteneur-barre2"><span class="barre c90"></span></div>
+        </div>
+        <div class="comp2">
+            <p>Adaptation</p>
+            <p>85%</p>
+            <div class="conteneur-barre2"><span class="barre c85"></span></div>
+            </div>
+            <div class="comp2">
+            <p>Sérieux</p>
+            <p>95%</p>
+            <div class="conteneur-barre2"><span class="barre c95"></span></div>
+        </div>
+        <div class="comp2">
+            <p>Pédagogie</p>
+            <p>95%</p>
+            <div class="conteneur-barre2"><span class="barre c95"></span></div>
         </div>
 
-        <div class="competences">
-                <h2>Mes compétences</h2>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, tempore? Quo et quisquam unde fuga, sequi odit sed! Corporis perspiciatis necessitatibus voluptate eaque ipsum esse distinctio, officia cum? Quidem, dolor.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, tempore? Quo et quisquam unde fuga, sequi odit sed! Corporis perspiciatis necessitatibus voluptate eaque ipsum esse distinctio, officia cum? Quidem, dolor.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, tempore? Quo et quisquam unde fuga, sequi odit sed! Corporis perspiciatis necessitatibus voluptate eaque ipsum esse distinctio, officia cum? Quidem, dolor.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, tempore? Quo et quisquam unde fuga, sequi odit sed! Corporis perspiciatis necessitatibus voluptate eaque ipsum esse distinctio, officia cum? Quidem, dolor.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, tempore? Quo et quisquam unde fuga, sequi odit sed! Corporis perspiciatis necessitatibus voluptate eaque ipsum esse distinctio, officia cum? Quidem, dolor.</li>
-                </ul>
-        </div>
-		<div class="projet">
-            <h2>Mes projets</h2>
-			<ul>
-				<li><a href="#">Projet 1</a></li>
-				<li><a href="#">Projet 2</a></li>
-				<li><a href="#">Projet 3</a></li>
-			</ul>
-            <p> Egistout krediñ Ar Gall disul stumm kerkent aotrou neud lamp, kazh sac’h beajiñ klouar izel kant levrioù Krouer ar, ac’hano harzhal mirout dibab vamm regiñ sankañ. Stank nebeut dirak  gantañ ur degemer Montroulez egistoc'h arc’hant, c’heuz skuizh lezenn dibab ar vezañ neuiñ merc’hed aour, trouz pod dindan nemet  tregas dañvad warnoc'h. Da fellout nec’hin petra brodañ talvoudus us piv amezeg, warnañ, lerenn romant perc’henn Melwenn livet Gwaien alc’houez gwellañ, votez armel davarn deiz evito ivez kreisteiz. Plij dek trubard genver da kaoued kenañ oas warnon, hennezh torfed Roazhon nebeutoc’h egile melen lur gounez pegoulz, bluenn moger ganet bale birviñ Kemperle dianav. Fall Plouzane enez e e kribañ harz reas Arzhon-Rewiz, paper poazh brav doujañs a brezhoneg logod koumoul an, plijout Penmarc’h kromm nizez kerc’hat ha ennon. Endervezh kuz’h yaouankiz skeudenn a ganin Orient dorgenn yac’h warnañ, bank vatezh trouz derc’hel, Plougasnou kartoñs c’hof stivell lein gaer jod tre Melwenn tud traonienn. A Nedeleg skrijañ Mellag pelec’h diwezhañ degemer Pont’n-Abad naet, Menez Muzilheg liv plac’h ac’hano servijañ nebeutoc’h ganto start, debriñ pla’hig Ar Releg-Kerhuon dianav oan buhez kloc’h. Ha miliner gwer gousperoù skalier eget nor ganto druez, ael tresañ an karr werenn poull huanadiñ sachañ setu, truez drezoc'h c’helien kregiñ bloavezh oabl soavon. Kaeraat Ar Vouster warnon Ar Gall gwastell aotrou Liger c’hilhog kriz, voulouz bemdez gourc’hemenn ennoc'h buan c’hof c’henwerzh etrezek goulou, soudard frouezh skañv fourchetez Sant-Gwenole muiañ walc’h. C’hemener tamall torgenn bale rodell draonienn kav kousket urzh, Roazhon lezel bremañ diwezhañ a porzh kalon bro uhel, bered lemm nec’hin tu ifern c’houlz bagad.</p>
-        </div>
+    </section>
+    <section>
+        <h2>Centres d'intérêt</h2>
+        <figure class="interet">
+            <img src="./images/painting.png" alt="painting">
+            <figcaption>painting</figcaption>
+        </figure>
+        <figure class="interet">
+            <img src="./images/waving doorway.png" alt="Cuisine">
+            <figcaption>Cuisine</figcaption>
+        </figure>
+        <figure class="interet">
+            <img src="./images/clindoeil.png" alt="Littérature">
+            <figcaption>Littérature</figcaption>
+        </figure>
+        <figure class="interet">
+            <img src="./images/laptop wave.png" alt="Gaming">
+            <figcaption>Jeux vidéos</figcaption>
+
 
         <div class="portfolio">
             <h2>Mon Portfolio :</h2>
@@ -114,8 +182,13 @@
                     <textarea id="msg" name="user_message"></textarea>
                 </div>
                 
-
             </form>
+
+            <div class= "is-content">
+             
+            <a class="email-link" href ="mailto:karine.ollivier@oclock.school">karine.ollivier@oclock.school</a>
+
+            </div>
 
         </div>
         
