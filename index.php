@@ -12,10 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Exo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     
     <title>CV développeuse web -  Karine Erlhaine Ollivier </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">    
     <link rel="stylesheet" href ="./css/styles.css">
 </head>
-<body class="clearfix">
+<body>
     <div id="top-content"></div>
     <header id="section-header" class="section-header mb-30 clearfix">
     <nav id="navbar-main" class="navbar navbar-expand-xl navbar-dark bg-dark navbar-main">
@@ -78,13 +79,6 @@
                 <p>Mail : </p>
                 <p><a href="mailto:karine.ollivier@oclock.school">karine.ollivier@oclock.school</a></p>
             </div>
-            <div class="contact-flex">
-                <p>Permis :</p>
-                <p>B</p>
-            </div>
-            <div class="social">
-                <a href="#"><img src="https://www.facebook.com/rumpelskunkskin/wp-content/uploads/2019/07/fb.png" alt="Logo Fb"></a>
-                <a href="#"><img src="https://www.linkedin.com/mynetwork/wp-content/uploads/2019/07/lk.png" alt="Logo Lk"></a>
             
            </article>
         </div>
@@ -162,7 +156,7 @@
 	
 	<footer id="contact" class="contactEko">
         <p class="textfooter">
-            want to work together or have any question? <br>
+            have any question? <br>
             <a class="mailStyle" href="karine.ollivier@oclock.school">
                 Say Hello 👋
             </a>
@@ -191,6 +185,37 @@
             </div>
 
         </div>
+        <footer>
+    <div class="container-fluid">
+        
+        <div class="row justify-content-center text-center">
+            <div class="col-6 social-networks">
+               
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fs-2 bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fs-2 bi bi-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fs-2 bi bi-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fs-2 bi bi-share"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center text-center">
+            <div class="col-9 links">
+                <!-- Je créé une liste: https://getbootstrap.com/docs/5.0/components/list-group/ -->
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="page.php"> pour me joindre</a></li>
+                    <li class="list-inline-item"><a href="page.php">Qui est Eko ?</a></li>
+                    <li class="list-inline-item"><a href="page.php">Mentions légales</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    </footer>
+    
         
 		<p> Copyright © By Eko 2023 </p>
 	</footer>

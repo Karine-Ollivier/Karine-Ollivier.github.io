@@ -78,11 +78,16 @@ p {
     padding:0;
 
 }
-
-nav a:hover {
-	background-color: #e2216a;
-	color: #ffffff;
-}
+.nav-links li {
+    font-size: 14px;
+  }
+.nav-links li a {
+    color: #ffffff;
+  }
+.nav-links li.active a {
+    color: #e2216a;
+    font-weight: bold;
+  }
 .navbar-toggler-icon {
     height:66.45px;
     width:55.5px
