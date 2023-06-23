@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="CV développeur Web : création et développement de sites et d'applications Web." />
+    <meta name="Keywords" content="Karine Ollivier, développeuse, développeur web, web, CV, site CV, site, application, application web, html5, css3, jquery, php," />
+    <meta name="robots" content="index,follow,all"/>
+    <meta name="author" content="Karine Ollivier"/>
+    <meta name="google-site-verification" content="" />
+
+    <link rel="icon" href="./images/favicon-16x16.png">
     <link rel="stylesheet" href="../css/reboot.css">
-   
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Exo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    
     <title>CV développeuse web -  Karine Erlhaine Ollivier </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="public/js/script.min.js"></script>   
     <link rel="stylesheet" href ="./css/styles.css">
 </head>
-<body>
+<body  class="clearfix">
     <div id="top-content"></div>
     <header id="section-header" class="section-header mb-30 clearfix">
     <nav id="navbar-main" class="navbar navbar-expand-xl navbar-dark bg-dark navbar-main">
@@ -42,97 +44,136 @@
 		</nav>
     </header>
 
-	<main>
-		<div class="Bio">
+    <section id="accueil" class="section-main mb-30 clearfix">
+        <div class="main">
+        <div class="item">
+        <div class="row">
+        <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+        <div class="item-child-left left-align">
             <img class="imageProfil" src="./images/peacefully reading.png" alt="sticker Eko" width="600px" height="400px">
             <article class="AboutSection">
                 <h2 class="hi"> Bonjour </h2>
-                <p class="name">
-                Je suis Karine  </p>
+                <p class="name"> Je suis Eko  </p>
                 <small class="position mb-30">&amp; je travaille dans le monde du web</small>
-				<a href="#" download>Télécharger mon CV</a>
-                <div class="col-12 col-lg-6 col-md-6 col-sm-6 hexagon-right">
-                    <div class="hexagon">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                         <a href="#contact" class="custom-btn-lg">
-                         <i class="fa fa-comment-dots" aria-hidden="true"></i>
-                        </a>
-
-        <div class="contact">
-                <h2>Informations de contact</h2>
-                <div class="contact-flex">
-                <p>Nom : </p>
-                <p>Karine E. Ollivier</p>
-            </div>
-            <div class="contact-flex">
-                <p>Adresse : </p>
-                <p>La Montagne <br> 
-                22340 Maël-Carhaix
-                </p>
-            </div>
-            <div class="contact-flex">
-                <p>Téléphone :</p>
-                <p>07 80 25 93 36</p>
-            </div>
-            <div class="contact-flex">
-                <p>Mail : </p>
-                <p><a href="mailto:karine.ollivier@oclock.school">karine.ollivier@oclock.school</a></p>
-            </div>
-            
-           </article>
-        </div>
-	<section>
-        
+				<a href="#" class="custom-btn-lg" download>Télécharger mon CV</a>
+            </article>
+        </section>
+          
+	<section id="competences" class="competence-section cadre mb-30 clearfix">
+            <div class="section-titre">
         <!--<h2>Expériences professionnelles</h2>
         <div class="exp"> ici une image d'un logo cliquable de chaque expérience-->
+          <h2> <i class="bi bi-file-code-fill"></i>Compétences</h2>
+          </div>
           <div class="competences">
-                    <h2>Hard Skills</h2>
-                    <h3 class="h3gauche">Professionnelles</h3>
-                    <div class="comp">
-                <p>HTML / CSS</p>
-                <div class="conteneur-barre"><span class="barre c100"></span></div>
+          <div id="competencesTechnique">
+          <h3 class="titre">professionnelles</h3>
+          <div class="skill_progress">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                <div class="competence-unique">
+                                    <div class="competence-titre">Html5</div>
+                                    <div class="progress">
+                                        <div class="progress-bar red-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="red-color">90%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="competence-unique">
+                                    <div class="competence-titre">Jquery</div>
+                                    <div class="progress">
+                                        <div class="progress-bar yellow-bg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="yellow-color">75%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="competence-unique">
+                                    <div class="competence-titre">POO</div>
+                                    <div class="progress">
+                                        <div class="progress-bar green-bg" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="green-color">45%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="competence-unique m-0">
+                                    <div class="competence-titre">MySQL</div>
+                                    <div class="progress">
+                                        <div class="progress-bar darkblue-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="darkblue-color">80%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                <div class="competence-unique">
+                                    <div class="competence-titre">Css3</div>
+                                    <div class="progress">
+                                        <div class="progress-bar blue-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="blue-color">8%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="competence-unique">
+                                    <div class="competence-titre">PHP</div>
+                                    <div class="progress">
+                                        <div class="progress-bar darkblue-bg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="darkblue-color">75%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="competence-unique">
+                                    <div class="competence-titre">MVC</div>
+                                    <div class="progress">
+                                        <div class="progress-bar red-bg" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="red-color">65%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="competence-unique m-0">
+                                    <div class="competence-titre">CDC</div>
+                                    <div class="progress">
+                                        <div class="progress-bar yellow-bg" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="yellow-color">50%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="comp">
-                <p>Integration web</p>
-                <div class="conteneur-barre"><span class="barre c95"></span></div>
+  </section>
+  <section id="experience" class="experience-section cadre mb-30 clearfix">
+            <div class="section-titre">
+                <h2> <i class="bi bi-pencil-fill"></i>Expérience  </h2>
             </div>
-            <div class="comp">
-                <p>Developpement FrontEnd</p>
-                <div class="conteneur-barre"><span class="barre c90"></span></div>
-            </div>
-            <div class="comp">
-                <p>Developpement BackEnd</p>
-                <div class="conteneur-barre"><span class="barre c100"></span></div>
-            <div class="comp">
-                <p>Gestion de projet numérique</p>
-                <div class="conteneur-barre"><span class="barre c105"></span></div>
-            </div>
-        <h3 class="h3gauche">Soft Skills</h3>
-        <div class="comp2">
-            <p>Créativité</p>
-            <p>90%</p>
-            <div class="conteneur-barre2"><span class="barre c90"></span></div>
-        </div>
-        <div class="comp2">
-            <p>Adaptation</p>
-            <p>85%</p>
-            <div class="conteneur-barre2"><span class="barre c85"></span></div>
-            </div>
-            <div class="comp2">
-            <p>Sérieux</p>
-            <p>95%</p>
-            <div class="conteneur-barre2"><span class="barre c95"></span></div>
-        </div>
-        <div class="comp2">
-            <p>Pédagogie</p>
-            <p>95%</p>
-            <div class="conteneur-barre2"><span class="barre c95"></span></div>
-        </div>
-
+        
+                <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="experience">
+                        <div class="experience-item-area">
+                            <div class="border-left">
+                                <div class="experience-item exp1">
+                                    <h3 class="titre">stage decouvert du métier chez Les Octets Libres</h3>
+                                    <ul class="post-mate ul-li">
+                                        <li class="blue-color">decembre 2022  - <span class="current blue-bg">Aujourd'hui</span></li>
+                                    </ul>
+                <div class="experience-item exp2">
+                 <h3 class="titre">commerciale</h3>
+                 <ul class="post-mate ul-li">
+                  <li class="green-color">Octobre 2011 à juillet 2022</li>
+                  </ul>
     </section>
-    <section>
-        <h2>Centres d'intérêt</h2>
+
+    <section id="loisirs" class="portfolio-section cadre mb-30 clearfix">
+            <div class="section-titre">
+                <h2>
+                <i class="bi bi-briefcase-fill"></i>
+                    Loisirs                </h2>
+                <p></p>
+            </div>
+            <div class="container-fluid">
+  <section>
+  <h2>Centres d'intérêt</h2>
         <figure class="interet">
             <img src="./images/painting.png" alt="painting">
             <figcaption>painting</figcaption>
@@ -148,46 +189,50 @@
         <figure class="interet">
             <img src="./images/laptop wave.png" alt="Gaming">
             <figcaption>Jeux vidéos</figcaption>
+  </section>
 
 
-        <div class="portfolio">
+   
+<section>
+<div class="portfolio">
             <h2>Mon Portfolio :</h2>
         </div>
-	
-	<footer id="contact" class="contactEko">
-        <p class="textfooter">
-            have any question? <br>
-            <a class="mailStyle" href="karine.ollivier@oclock.school">
-                Say Hello 👋
-            </a>
-        </p>
-        <div class="formulaire">
-            <form action="my-handling-form-page" method="post">
-                <div>
-                    <label for="name">Nom :</label>
-                    <input type="text" id="name" name="user_name">
-                </div>
-                <div>
-                    <label for="mail">e-mail&nbsp;:</label>
-                    <input type="email" id="mail" name="user_mail">
-                </div>
-                <div>
-                    <label for="msg">Message :</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </div>
-                
-            </form>
-
-            <div class= "is-content">
-             
-            <a class="email-link" href ="mailto:karine.ollivier@oclock.school">karine.ollivier@oclock.school</a>
-
+</section>
+<section id="contact" class="contact-section cadre mb-30 clearfix">
+            <div class="section-titre">
+                <h2>
+                <i class="bi bi-envelope-at-fill"></i>
+                    Contact                </h2>
+                <p></p>
             </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="contact-right clearfix">
+                        <form class="contact-form validate-form" id="form_contact">
+                            <div class="wrap-contact-input validate-input input-field">
+                                <input class="contact-input" name="name" type="text" id="name">
+                                <span class="focus-contact-input" data-placeholder="NOM"></span>
+                            </div>
+                            <div class="wrap-contact-input validate-input input-field">
+                                <input class="contact-input" name="email" type="text" id="email">
+                                <span class="focus-contact-input" data-placeholder="E-MAIL"></span>
+                            </div>
+                            <div class="wrap-contact-input validate-input input-field">
+                                <textarea class="contact-input" id="message" name="message" rows="3"></textarea>
+                                <span class="focus-contact-input" data-placeholder="MESSAGE"></span>
+                            </div>
+                            <button type="submit" class="submitForm custom-btn-lg"><i class="fa fa-envelope" aria-hidden="true"></i>Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        </div>
-        <footer>
+       
+	
+	
     <div class="container-fluid">
-        
+    
         <div class="row justify-content-center text-center">
             <div class="col-6 social-networks">
                
@@ -220,8 +265,6 @@
 		<p> Copyright © By Eko 2023 </p>
 	</footer>
 
-	</main>
-       
     
 </body>
 </html>
