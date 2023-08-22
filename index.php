@@ -49,7 +49,11 @@
 
           <div class="contact">
             <i class="fa fa-location-arrow"></i>
-            <span>@ home</span>
+            <span>
+            <a href="https://www.google.com/maps?q=47.812344562583824,-3.7046590323666213" target="_blank">
+              Where?
+              </a>
+            </span>
           </div>
 
           <div class="contact">
@@ -174,9 +178,9 @@
           </div>
           <p class="profileDeScription">
             
-          Actuellement en formation pour devenir développeuse web après une carrière dans le management. Je recherche 🔎 un stage de deux mois à partir du 12 septembre 2023.
+          Actuellement en formation pour devenir développeuse web après une carrière dans le management. Je recherche 🔎 un stage de deux mois à partir du 18 octobre 2023.
 
-             Une réorientation professionneller emplit de passion, de curiosité 💡
+             Pour une réorientation professionneller emplit de passion, et de curiosité 💡 <br> 
 
             Organisée, je sais travailler en équipe et en autonomie. Les challenges sont sources de motivation. 
 
@@ -236,7 +240,7 @@
               </div>
               <div class="degreeInfo">
                 <h4>Diplôme en Management</h4>
-                <h5>Brest unvirsity</h5>
+                <h5>Brest university</h5>
                 <p>
                   Programme anglophone, 
                   Cours axés sur la stratégie d'entreprise, la gestion de projet et le leadership

@@ -44,8 +44,8 @@
 
 .profileImg img
 {
-    width: 100px; /* Ajustez cette valeur pour la largeur souhaitée */
-    height: 100px; 
+    width: 145px; /* Ajustez cette valeur pour la largeur souhaitée */
+    height: 145px; 
    margin-top: 25px;
    border-radius: 50%;
    box-shadow: 8px 8px 20px rgba(66, 61, 67, 1);
