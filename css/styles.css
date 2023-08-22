@@ -1,180 +1,410 @@
-/*style initial*/
-html {
-	line-height: 1.5;
-	font-weight: normal;
-	letter-spacing: 0.04em;
-	scroll-behavior: smooth;
-	max-width: 100%;
-	border: 6px solid;
-	border-image-source: linear-gradient(90deg,#f7c9c9,#fa709a 70%);
-	border-image-slice: 1;
-	
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-body {
-	box-sizing: border-box;
-	/*position: relative;*/
-	background-color: #faeee7;
-	color: black;
-	font-family: Merriweather,serif;
-	margin: 0 auto;
-	padding: 0;
-	width: 100%;
-	max-width: 1140px;
-	height: auto;
-	min-height: 100vh;
-	overflow-x: hidden;
-/*	display: flex;*/
 
-	
-   }
+
+/* Styling of the section that contains  All divs */
+.cv {
+    width: 900px;
+    background-color: rgb(214, 25, 25);
+    margin: auto;
+    box-shadow: 30px 30px 40px 10px rgba(66, 61, 67, 1);
+}
+
+.container {
+    display: flex;
+}
+
+/* start cvData1 ((Left section of cv)) */
+.cvData1 {
+    width: 35%;
+    background-color: rgba(66, 61, 67, 1);
+    margin-top: 30px;
+    position: relative;
+
+}
+
+
+
+.profileImg {
+    width: 50%;
+    height: 200px;
+    background-color: rgb(214, 25, 25);
+    margin: auto;
+     border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    text-align: center;
+    margin-bottom: 70px;
+    position: relative;
+    border-top-left-radius: 0px;
+}
+
+.profileImg img
+{
+    width: 145px; /* Ajustez cette valeur pour la largeur souhaitée */
+    height: 145px; 
+   margin-top: 25px;
+   border-radius: 50%;
+   box-shadow: 8px 8px 20px rgba(66, 61, 67, 1);
+
+}
+
+
+/* Start Contacts in left side*/
+
+.contacts .cotactsTitle,
+.skills .skillsTitle,
+.languages .languagesTitle {
+    background-color: rgb(214, 25, 25);
+    padding: 15px 18px 18px 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 20px;
+
+
+}
+
+.contacts .cotactsTitle h3,
+.skills .skillsTitle h3,
+.languages .languagesTitle h3 {
+    color: white;
+    background-color: rgba(66, 61, 67, 1);
+    padding: 20px 20px 23px 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 5px 7px 8px rgba(66, 61, 67, 1);
+}
+
+.contacts .contact span {
+    color: white;
+    font-size: 20px;
+
+}
+
+.contacts .contact i {
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.contactContainer {
+    width: 73%;
+    margin: auto;
+}
+
+.contactContainer .contact {
+    margin: 10px 0px;
+}
+
+/* Skills */
+
+.skillsContainer {
+    margin: 20px 0px;
+}
+
+.skills .skill-1 h4,
+.skill-2 h4,
+.skill-3 h4,
+.skill-4 h4, 
+.skill-5 h4 {
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.skills h4::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    top: 50%;
+    left: 90px;
+}
+
+.skills h4::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    top: 50%;
+    right: 90px;
+}
+
+.skill-1 .progressBar,
+.skill-2 .progressBar,
+.skill-3 .progressBar,
+.skill-4 .progressBar,
+.skill-5 .progressBar {
+    width: 85%;
+    height: 20px;
+    border: 1px solid white;
+    margin: 10px auto;
+}
+
+.skill-1 .progressBar .ratio,
+.skill-2 .progressBar .ratio,
+.skill-3 .progressBar .ratio,
+.skill-4 .progressBar .ratio,
+.skill-5 .progressBar .ratio {
+    background-color: white;
+    height: 30%;
+    margin: 6px;
+    border-radius: 20px;
+}
+
+.skill-1 .ratio {
+    width: 92%;
+}
+
+.skill-2 .ratio {
+    width: 45%;
+}
+
+.skill-3 .ratio {
+    width: 60%;
+}
+
+
+.skill-4 .ratio {
+    width: 75%;
+}
+
+.skill-5 .ratio {
+    width: 70%;
+}
+
+/* Languages */
+
+.languagesContainer {
+
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+.language {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 10px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+
+.languagesContainer p {
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.languagesContainer :nth-child(2) .language {
+    border-right: 10px solid transparent;
+}
+
+.languagesContainer :nth-child(3) .language {
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+/* End cvData1 ((Left section of cv)) */
+
+
+
+
+
+
+/* Start cvData2 ((right section of cv)) */
+
+.cvData2 {
+    width: 65%;
+    margin-top: 30px;
+    background-color: rgba(66, 61, 67, 1);
+    padding-left: 30px;
+
+}
+
+.cvTitle h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.cvTitle h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.cvTitle h2::before {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    top: 50%;
+    left: 12%;
+
+}
+
+.cvTitle h2::after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    top: 50%;
+    right: 12%;
+}
+
+
+.cvContent {
+
+    width: 100%;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    height: 100%;
+
+}
+
+.profile {
+    border-top-left-radius: 20px;
+}
+
+.emptyDiv {
+    background-color: white;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.profile,
+.education,
+.work {
+    border-bottom-left-radius: 20px;
+}
+
+
+.profileTitle,
+.educationTitle,
+.workTitle {
+    display: flex;
+    align-items: flex-end;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+.profileTitle h3,
+.educationTitle h3,
+.workTitle h3 {
+    border-bottom: 3px solid rgba(66, 61, 67, 1);
+    margin-bottom: 33px;
+    width: 83%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.profileTitle h3 i,
+.educationTitle h3 i,
+.workTitle h3 i {
+    margin-right: 10px;
+    color: rgb(214, 25, 25);
    
-   
-   h1 {
-	   font-family: 'Bruno Ace SC', cursive;
-   }
-
-   h2{
-	font-weight: 200;
-	font-size: 2.92rem;
-	line-height: 3.212rem;
-	margin: 1.46rem 0 1.168rem 0;
-   }
-
-header {
-	background-color: #f5c5c4;
-	padding: 20px;
-	font-size: 4.2rem;
-	line-height: 4.62rem;
-	margin: 2.1rem 0 1.68rem 0;
-	
-}
-
-header h1 {
-	margin-left: 2rem;
-	margin-right: 2rem;
-	font-size: 36px;
-	margin: 0;
-}
-
-nav ul {
-	list-style: none;
-	margin-left: 1rem;
-	margin-right: 1rem;
-}
-nav a:hover {
-	background-color: #e2216a;
-	color: #ffffff;
-}
-
-nav li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-nav li:last-child {
-	margin-right: 0;
-}
-form {
-	/* Uniquement centrer le formulaire sur la page */
-	margin: 0 auto;
-	width: 400px;
-	/* Encadré pour voir les limites du formulaire */
-	padding: 1em;
-	border: 1px solid #CCC;
-	border-radius: 1em;
-  }
-  
-  form,
-  .my-handling-form-page {
-	margin-top: 1em;
-  }
-  
-  label {
-	/* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
-	display: inline-block;
-	width: 90px;
-	text-align: right;
-  }
-  
-
-/* les class */
-.imageProfil{
-	max-width: 100%;
-	height: auto;
-	border-radius: 9999px;
-	box-sizing: border-box;
-	display: inline;
-	float: right;
-	line-height: 24px;
-	position: static;
-	z-index: auto;
-	pointer-events: none;
-}
-.headingPrimary { 
-	font-size: 6rem;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	text-align: center;
-	color:#594a4e;
-	font-weight: 800;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	
-}
-.AboutSection{
-	box-sizing: border-box;
-	display: block;
-	float: none;
-	line-height: 37.1px;
-	position: static;
-	z-index: auto;
-	margin: .67em 0;
-	padding: 1.6, 9.6,1.6,1.6;
-	border: 0 solid #e2e8f0;
-	font-size: 115%;
-	font-weight: 600;
-	color: #111;
-	font-family: Playfair Display,sans-serif;
-}
-.Bio,
-.experiences,
-.competences,
-.projet {
-	font-size: 115%;
-	font-weight: 600;
-	color: #111;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	
 }
 
 
-/*footer*/
-.textfooter {
-	font-weight: 700;
-	box-sizing: border-box;
-	box-shadow: 1px 10px 10px 0 rgba(0,0,0,.1);
-	display: block;
-	position: relative;
-	float: none;
-	line-height: 36px;
-	position: static;
-	z-index: auto;
-	scale: 25px;
-	width: 100%;
-	border-radius: .375rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	padding-left: 10rem;
-	padding-right: 10rem;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
-	border: 1px solid #e2e8f0;
-
+.profile .userIcon i,
+.education .educationIcon i,
+.work .workIcon i {
+    font-size: 35px;
+    background-color: rgba(66, 61, 67, 1);
+    padding: 25px 30px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: white;
+    position: relative;
 }
 
-.mailStyle {
-	background-color: #e2216a;
-	color: #ffffff;
-	border-radius: .25rem ;
+.education .educationIcon i,
+.work .workIcon i {
+    margin-top: 0px;
 }
+
+.profile .profileDeScription,
+.education .educationDeScription,
+.work .workDescription {
+    color: rgba(66, 61, 67, 1);
+    ;
+    padding: 20px 20px;
+    text-align: justify;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+.work .workDescription {
+    border-bottom-left-radius: 0px;
+}
+
+.degree-1,
+.degree-2,
+.degree-3,
+.degree-4,
+.work-1,
+.work-2,
+.work-3 {
+    display: flex;
+    gap: 27px;
+}
+
+.degree-2,
+.work-2 {
+    margin: 20px 0px;
+}
+
+.degreeInfo h4,
+h5,
+.workInfo h4,
+h5 {
+    text-transform: capitalize;
+}
+
+.degreeInfo h4,
+.workInfo h4 {
+    font-weight: 600;
+}
+
+.degreeInfo h5,
+.workInfo h5 {
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.degreeInfo h5,
+.degreeInfo p,
+.degreeInfo span,
+.workInfo h5,
+.workInfo p,
+.workInfo span {
+    color: #9e9e9e;
+}
+
